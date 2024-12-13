@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    transition: all .3s ease-in;
+}
+
+ul#album-fotos li:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    transform: scale(1.5);
+}
+
+ul#album-fotos li#foto01 {
+    background: url('../_imagens/personagens/Walter_White_S5B.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto02 {
+    background: url('../_imagens/personagens/Skyler_White_S5B.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto03 {
+    background: url('../_imagens/personagens/Walter_White_Jr_S5B.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto04 {
+    background: url('../_imagens/personagens/Jimmy_McGill_BCS_S3.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto05 {
+    background: url('../_imagens/personagens/Mike_Ehrmantraut_BCS_S3.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto06 {
+    background: url('../_imagens/personagens/Raymond_Cruz_February_2015.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li span {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+    opacity: 0;
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Breaking Bad</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/specs.css"/>
+</head>
+
+<script src="_javascript/funcoes.js">
+</script>
+
+<body>
+    <div id="interface">
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Breaking Bad -  Página interativa</h1>
+    </hgroup>
+
+    <img id="icone" src="_imagens/ "/>
+    
+    <nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul type="disc">
+        <li onmouseover="mudaFoto('_imagens/enxofre.png')" onmouseout="mudaFoto('_imagens/atomo.png')"><a href="index.html">Home</a></li>
+        <li onmouseover="mudaFoto('_imagens/nitrogenio.png')" onmouseout="mudaFoto('_imagens/atomo.png')"><a href="specs.html">Especificações</a></li>
+        <li onmouseover="mudaFoto('_imagens/carbono.png')" onmouseout="mudaFoto('_imagens/atomo.png')"><a href="fotos.html">Personagens</a></li>
+        <!-- <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li> -->
+    </ul>
+    </nav>
+
+    </header>
+
+    <section id="corpo-full">
+
+    <article id="noticia-principal">
+
+        <header id="cabecalho-artigo">
+        <hgroup>
+        <h3 class="direita">Breaking Bad > Especificações</h3>
+        <h2>por Lucas Clemente</h2>
+        <h3 class="direita">Atualizado em 16/Outubro/2024</h3>
+        </hgroup>
+        </header> 
+
+<p>Essa página interativa será destinada a revelar em quais estados americanos os principais autores da série nasceram.</p>
+
+<section id="conteudo">
+    <img src="_imagens/mapa3.png" usemap="#mapa" id="mapa-eua">
+    <map name="mapa">
+        <area shape="poly" coords="153,377,113,368,107,337,68,317,48,258,54,239,42,211,58,155,118,173,101,230,168,342" href="google-glass.html#sensores" target="janela">
+        <area shape="poly" coords="248,200,163,183,200,51,257,155" href="google-glass.html#camera" target="janela">
+        <area shape="poly" coords="596,303,601,286,590,214,551,214,556,228,541,258,559,297" href="google-glass.html#gadgets" target="janela">
+        <area shape="poly" coords="643,275,639,255,701,212,706,254,685,282,643,276," href="google-glass.html#tela" target="janela">
+    </map>
+    <iframe src="google-glass.html" name="janela" id="frame-spec" scrolling="no"></iframe>
+</section>
+
+</article>
+
+</section>
+
+<footer id="rodape">
+
+    <p>Copyright &copy; 2024 - by Lucas C<br>
+    <a href="https://pt.wikipedia.org/wiki/Project_Glass" target="_blank">Facebook</a> | 
+    <a href="https://pt.wikipedia.org/wiki/Project_Glass" target="_blank">Twitter</a></p>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>

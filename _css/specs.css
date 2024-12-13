@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+section#conteudo{
+    width: 900px;
+    margin: auto;
+}
+
+iframe#frame-spec{
+    width: 800px;
+    height: 400px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    right: 350px;
+    
+}
+
+/* img#icone {
+    position: relative;
+    margin-left: 550px;
+    
+} */
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+nav#menu {
+    position: relative;
+    top: -130px;
+    right: 10px;
+}
+
+header#cabecalho-artigo h2 {
+    background: none;
+    text-align: right;
+}
+
+img#mapa-eua {
+    
+    position: relative;
+    display: inline;
+    right: 350px;
+}

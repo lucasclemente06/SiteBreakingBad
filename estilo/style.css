@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'nunito';
+    src: url("../fonts/Nunito-VariableFont_wght.ttf") format(truetype);
+}
+
+header h1 {
+    font-family: "nunito";
+}
